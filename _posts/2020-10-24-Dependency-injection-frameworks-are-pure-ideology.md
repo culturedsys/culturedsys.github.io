@@ -73,5 +73,5 @@ frameworks through loyalty to this half-remembered dream.
 
 (Some people will say, if you don't use a dependency injection framwork, how
 will you manage the generation of proxies that implement aspect-oriented
-programming? The answer here is that AOP is also bad, and you shouldn't use it;
-but that's a topic for another post.)
+programming? The answer here is that [AOP is also bad, and you shouldn't use
+it](/2022/01/08/Concern-is-your-concern/).)
