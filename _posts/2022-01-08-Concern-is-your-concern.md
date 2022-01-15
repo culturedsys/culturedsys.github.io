@@ -76,7 +76,7 @@ application" - the aspects must be defined such that the business logic can be
 oblivious to their existence.
 
 My contention is that almost none of the cases where aspect-oriented programming
-is used exhibit this obliviousness. The first example in the AOP paper,
+is used exhibit this obliviousness.[^steimann-paradox] The first example in the AOP paper,
 discussed above, is a good case for AOP, because the semantics of the program
 aren't changed by the aspect. The second example in the paper, however, is less
 persuasive. This example concerns a library catalogue system intended to run in
@@ -86,7 +86,26 @@ systems. This is not a case where the business logic can be oblivious to the
 aspect. Network communication is a fundamental design consideration, and any
 function that involves it needs to be aware of when remote communication is and
 isn't happening. Hiding this behind an aspect is simply a recipe for confusing
-and unreliable software.
+and unreliable software.[^tanenbaum-rpc]
+
+
+[^steimann-paradox]: It turns out my objection is not original; see, for
+    instance, [Steimann's to my mind definitive takedown of AOP from
+    2006](http://onward-conferences.org/2009/files/steimannessay.pdf).
+
+[^tanenbaum-rpc]: As [Tenenbaum and van
+    Renesse](https://www.cs.vu.nl/~ast/Publications/Papers/euteco-1988.pdf) put
+    it:
+  > It is our contention that a large number of things may now go wrong due to
+  > the fact that RPC tries to make remote procedure calls look exactly like
+  > local ones, but is unable to do it perfectly. Many of the problems can be
+  > solved by modifying the code is various ways, but then the transparency is
+  > lost. Once we admit that true transparency is impossible, and that
+  > programmers must know which calls are remote and which ones are local, we
+  > are faced with the question of whether a partially transparent mechanism is
+  > really better than one that was designed specifically for remote access and
+  > makes no attempt to make remote computations look local at all.
+ 
 
 Or consider other common uses of aspect-oriented programming, logging and
 transaction handling (the original AOP paper doesn't mention transactions, but
