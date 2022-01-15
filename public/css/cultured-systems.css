@@ -1,13 +1,29 @@
 .read-more-link {
-    float: left;
-    margin-top: -1em;
+  float: left;
+  margin-top: -1em;
 }
 
 blockquote footer {
-    display:block;
-    text-align: right;
+  display: block;
+  text-align: right;
 }
 
 blockquote footer::before {
-    content: "— ";
+  content: "— ";
+}
+
+.footnotes {
+  font-size: 80%;
+}
+
+.footnotes::before {
+  content: "Notes";
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 0.25em;
+}
+
+.footnotes ol {
+  padding-inline-start: 1em;
 }
