@@ -12,8 +12,8 @@ title: Dependency injections frameworks are pure ideology
 > <a href="http://aln2.albumlinernotes.com/Mingus_Ah_Um.html">the liner notes to 
 > <cite>Mingus Ah Um</cite></a></footer>
 
-Dependency injection is great idea. Supplying dependencies to a class, rather
-than having the class create them themselves, is a practical illustrationg of
+Dependency injection is a great idea. Supplying dependencies to a class, rather
+than having the class create them themselves, is a practical illustration of
 the benefits of the single-responsibility principle. Creating dependencies is a
 different responsibility from using them, and the class that uses dependencies
 probably doesn't (or shouldn't) have the information required to create the
