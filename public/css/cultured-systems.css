@@ -27,3 +27,29 @@ blockquote footer::before {
 .footnotes ol {
   padding-inline-start: 1em;
 }
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 38em) {
+  .gallery {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }    
+}
+
+figure img {
+  margin-bottom: 0;
+}
+
+figure {
+  margin-bottom: 1em;
+}
+
+figcaption {
+  text-align: center;
+}
