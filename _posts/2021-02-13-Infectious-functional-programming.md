@@ -5,6 +5,10 @@ summary: You learn about clever purely-functional abstractions and you think, ne
     not really relevant to everyday programming; then the next thing you know,
     you're implementing a fairly boring bit of business logic and you think, dammit,
     what I really need here are profunctor optics. 
+tags: 
+    - java
+    - functional programming
+    - barefunc
 ---
 
 You learn about clever purely-functional abstractions and you think, neat, but

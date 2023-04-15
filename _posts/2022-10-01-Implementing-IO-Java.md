@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Implementing the IO monad in Java for questionable fun and less profit
+tags:
+  - functional programming
+  - java
 ---
 
 Why would you use the IO monad in Java? Well, the IO monad allows you to
