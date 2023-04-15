@@ -1,24 +1,22 @@
 # Dependencies
-markdown:         kramdown
-highlighter:      rouge
+markdown: kramdown
+highlighter: rouge
 
 # Permalinks
-permalink:        pretty
+permalink: pretty
 
 # Setup
-title:            Cultured Systems
-tagline:          'Everyday life and the sociability of code'
-description:      ''
-url:              https://www.cultured.systems/
-title_image:      /public/apple-touch-icon-144-precomposed.png
+title: Cultured Systems
+tagline: "Everyday life and the sociability of code"
+description: ""
+url: https://www.cultured.systems
+title_image: /public/apple-touch-icon-144-precomposed.png
 #baseurl:          /
 
 author:
-  name:           'Tim Fisken'
-  url:            https://www.cultured.systems/
+  name: "Tim Fisken"
+  url: https://www.cultured.systems/
 
-paginate:         5
+paginate: 5
 
 excerpt_separator: <!-- more -->
-  
-
