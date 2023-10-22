@@ -385,11 +385,11 @@ input (`respParse`), executes commands (mapping the `processCommand` function
 over the stream), serialising the result (`respWrite`).
 
 [^1]: The real redis also includes commands to subscribe to a channel, receiving 
-notifications when messages are published to that channel. This doesn't fit the 
-request/response pattern, so would need to be handled in a more complicated way, 
-possibly similar to how this 
-[async chat server](https://www.schoolofhaskell.com/user/joehillen/building-an-async-chat-server-with-conduit) 
-works.
+      notifications when messages are published to that channel. This doesn't fit the 
+      request/response pattern, so would need to be handled in a more complicated way, 
+      possibly similar to how this 
+      [async chat server](https://www.schoolofhaskell.com/user/joehillen/building-an-async-chat-server-with-conduit) 
+      works.
 
 ## Conclusion
 
